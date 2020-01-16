@@ -1,0 +1,24 @@
+{
+    "name": "tdd-sample",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node app.js",
+        "lint": "eslint",
+        "test": "mocha --exit **/*.spec.js"
+    },
+    "dependencies": {
+        "body-parser": "1.17.x",
+        "cf-deployment-tracker-client": "^0.1.4",
+        "express": "4.17.x"
+    },
+    "repository": {},
+    "engines": {
+        "node": "8.x"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^6.8.0",
+        "mocha": "^7.0.0",
+        "supertest": "^4.0.2"
+    }
+}
